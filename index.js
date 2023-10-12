@@ -11,7 +11,7 @@ const server = require('http').createServer(app); // Use 'http' to create the se
 
 const io = socketIo(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://chat-app-frontend-arunkumars.onrender.com',
     credentials: true,
   },
 });
